@@ -18,7 +18,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '20'  # 指定你的 Node.js 版本
+          node-version: '20'  # 指定你的 Node.js 版本#
 
       # 安裝依賴並構建你的專案（這裡是針對 Angular 的範例）
       - name: Install dependencies
