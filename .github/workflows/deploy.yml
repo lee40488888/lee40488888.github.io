@@ -31,5 +31,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: main  # 部署的分支
+          branch: gh-pages  # 部署的分支
           folder: dist/user-app/browser  # 你構建後的資料夾，這裡是 Angular 預設的 build 資料夾
