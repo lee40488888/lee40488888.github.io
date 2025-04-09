@@ -33,3 +33,4 @@ jobs:
         with:
           branch: gh-pages  # 部署的分支
           folder: dist/user-app/browser  # 你構建後的資料夾，這裡是 Angular 預設的 build 資料夾
+          token: ${{ secrets.GH_TOKEN }}  # 使用自定義的 Personal Access Token
